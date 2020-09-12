@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student`s Form</title>
+  </head>
+  <body>
+    <h1>Student`s Form</h1>
+    <form action="/my folder">
+      <ul>
+        <li>
+          First Name <input type="text" required placeholder="First Name" />
+        </li>
+        <li>
+          Last Name <input type="text" required placeholder="Last Name" />
+        </li>
+        <li>Email: <input type="email" required placeholder="email" /></li>
+      </ul>
+      <h1>Gender</h1>
+      <label for="male">
+        <input id="male" type="radio" name="gender" />male
+      </label>
+      <label for="female">
+        <input id="female" type="radio" name="gender" />female
+      </label>
+      <label for="other">
+        <input id="other" type="radio" name="gender" />other
+      </label>
+      <h2>Age</h2>
+      <label for="youth">
+        <input id="youth" type="checkbox" name="youth" /> 14-18
+      </label>
+      <label for="old">
+        <input id="old" type="checkbox" name="old" /> 19-50
+      </label>
+      <label for="granny">
+        <input id="granny" type="checkbox" name="granny" /> 50-100
+      </label>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
